@@ -164,6 +164,52 @@ So, in this case the component will see that:
 Note that you can just ignore the `type` attibute and always set the `component` attribute if you like.
 
 ## Included renderers
+Here is a complete list of renderers bundled with vuejsonschemaform.
+```javascript
+{
+  '*': {
+    string: renderString,
+    number: renderNumber,
+    array: renderArray,
+    apiselect: renderApiSelect,
+    dynamicapiselect: renderDynamicApiSelect,
+    radio: renderRadio,
+    select: renderSelect,
+    checkbox: renderCheckboxes,
+    multiselect: renderMultiselect,
+    boolean: renderSwitch,
+    monthpicker: renderMonthpicker,
+    daterange: renderDateRange,
+    multipleupload: renderMultipleUpload,
+    upload: renderSingleFileUpload,
+    datepicker: renderDatePicker,
+    datetimepicker: renderDateTimePicker,
+    time: renderTimePicker,
+    multiselectpills: renderPills,
+    verticalmultiselectpills: renderVerticalPills,
+    accordion: renderAccordion,
+    verticalbodyaccordion: renderVerticalBodyAccordion,
+    address: renderObjectAsAddressForm,
+    basicaddress: renderObjectAsBasicAddressForm,
+    pancarduploader: renderArrayAsPancardUploader,
+    intlphonenumber: renderInternationalPhone,
+    tagsinput: renderTagsInput,
+    textarea: renderTextarea,
+    familydetailcomponent: renderFamilyDetailComponent,
+    singleselectpills: renderSingleSelectPills,
+    maps: mapsRenderer,
+    gstincollector: renderGstinCollector,
+    object: renderObject,
+    leadeditor: renderLeadEditor,
+    statusComponent: RenderstatusComponent,
+    multiselectpresales: renderBouncerUserSearchPresales,
+    familydetaillabels: renderFamilyDetailsLabels,
+  }
+}
+```
+
+We will see an example of how to use each of these now.
+
 
 # Conditional rendering
 You can handle conditional showing hiding of form elements using the conditional
