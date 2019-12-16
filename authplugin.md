@@ -1,1 +1,1 @@
-# Auth plugin
+# Auth plugin (Coming soon)
