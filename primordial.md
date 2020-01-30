@@ -6,6 +6,7 @@ A template for making a standalone frontend in v2.
 If you are looking for MFE's this is not the right place. This doc explains how to setup a standalone frontend with authentication and api integration for the v2 suite of frontend apps in livspace. The app you create by following this guide will be deployed on firebase under its own domain name. You might run some mfe's inside it if you want to. 
 
 ## Getting started
+Note that you need to be able to access our private npm registry in order to successfully perform the following steps. If you do not know how to do this you should refer to this [snippet](/nexus.md)
 Clone the repository, and make sure you checkout the `trimdown` branch.
 ```bash
 git clone https://gautam1168@bitbucket.org/livspaceeng/primordial.git
