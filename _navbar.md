@@ -1,6 +1,6 @@
-* :fire: [Primordial](/primordial.md)
+* :fire: [Nexus: npm registry](/nexus.md)
 * Others
-  * [AuthPlugin](/authplugin.md)
-  * [VueJSONSchemaForm](/vuejsonschemaform.md)
   * [Nexus: npm registry](/nexus.md)
-
+  * [Primordial](/primordial.md)
+  * [VueJSONSchemaForm](/vuejsonschemaform.md)
+  * [AuthPlugin](/authplugin.md)

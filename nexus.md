@@ -1,9 +1,15 @@
 # Private npm registry
-The private registry is made up of three repositories in [nexus](http://nexus.jx.livspace.com/#admin/repository/repositories):
+The private registry is made up of three repositories in [nexus](http://nexus.livspace.com/#admin/repository/repositories):
 
- 1. http://nexus.jx.livspace.com/repository/livspace-npm/ : Private hosted npm repository that has all privately published packages.
- 2. http://nexus.jx.livspace.com/repository/npm-proxy/ : Proxies the public npm repository.
- 3. http://nexus.jx.livspace.com/repository/npm-group/ : Aggregator for both of the above so that you can download/search in the combined repository.
+ :fire::fire: The following urls have changed. Please update accordingly.
+ 1. ~~http://nexus.jx.livspace.com/repository/livspace-npm/: Private hosted npm repository that has all privately published packages.~~
+ 2. ~~http://nexus.jx.livspace.com/repository/npm-proxy/ : Proxies the public npm repository.~~
+ 3. ~~http://nexus.jx.livspace.com/repository/npm-group/ : Aggregator for both of the above so that you can download/search in the combined repository.~~
+
+ The new urls are as follows:
+ 1. http://nexus.livspace.com/repository/livspace-npm/: Private hosted npm repository that has all privately published packages.
+ 2. http://nexus.livspace.com/repository/npm-proxy/ : Proxies the public npm repository.
+ 3. http://nexus.livspace.com/repository/npm-group/ : Aggregator for both of the above so that you can download/search in the combined repository.
 
 ## Usage
 Authentication can be done at the command line or using `.npmrc` file. Use `npmrc` package to manage different registries.  The following commands will install npmrc and setup `download` and `publish` profiles for search/download and publishing of packages respectively.
@@ -13,10 +19,10 @@ npm install -g npmrc
 npmrc
 npmrc -c download
 npmrc download
-npm config set registry http://nexus.jx.livspace.com/repository/npm-group/ 
+npm config set registry http://nexus.livspace.com/repository/npm-group/ 
 npmrc -c publish
 npmrc publish
-npm config set registry http://nexus.jx.livspace.com/repository/livspace-npm/
+npm config set registry http://nexus.livspace.com/repository/livspace-npm/
 ```
 
 You have to login in order to do further operations:
@@ -67,6 +73,6 @@ Edit your package.json to include the publish config:
 ```
 "publishConfig"  : 
 	{  
-		 "registry"  :  "http://nexus.jx.livspace.com/repository/livspace-npm/"  
+		 "registry"  :  "http://nexus.livspace.com/repository/livspace-npm/"  
 	},
 ```
