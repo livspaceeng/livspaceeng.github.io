@@ -7,7 +7,8 @@ The private registry is made up of three repositories in [nexus](http://nexus.li
  3. ~~http://nexus.jx.livspace.com/repository/npm-group/ : Aggregator for both of the above so that you can download/search in the combined repository.~~
 
  The new urls are as follows:
- 1. http://nexus.livspace.com/repository/livspace-npm/: Private hosted npm repository that has all privately published packages.
+ 1. ~~http://nexus.livspace.com/repository/livspace-npm/: Private hosted npm repository that has all privately published packages.~~
+ 1. https://nexus.livspace.com/repository/livspacenpms3/: Private hosted npm repository that has all privately published packages.
  2. http://nexus.livspace.com/repository/npm-proxy/ : Proxies the public npm repository.
  3. http://nexus.livspace.com/repository/npm-group/ : Aggregator for both of the above so that you can download/search in the combined repository.
 
